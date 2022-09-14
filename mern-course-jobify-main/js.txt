@@ -1,0 +1,66 @@
+Q. When to use reduce(), map(), foreach() and filter() in JavaScript?
+var arr = [10, 20, 30];
+
+arr.forEach(function (elem, index){
+   console.log(elem + ' comes at ' + index);  \\ do not return an array
+})
+
+var result = arr.filter(function(elem){    	\\ return filtered array
+    return elem !== 20;
+})
+console.log(result)
+
+var mapped = arr.map(function(elem) { 		\\ return modified array
+    return elem * 10;
+});
+console.log(mapped)
+
+var sum = arr.reduce(function(sum, elem) {
+    return sum + elem;
+});
+console.log(sum); 	// Output: 60
+
+
+Q. What is Hoisting in JavaScript?
+Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope
+before code execution.
+
+All declarations (function, var, let, const and class) are hoisted in JavaScript, 
+while the var declarations are initialized with undefined, but let and const declarations remain uninitialized.
+
+
+Q. What are closures?
+A closure is the combination of a function and the lexical environment within which that function was declared. 
+i.e, It is an inner function that has access to the outer or enclosing function’s variables. 
+The closure has three scope chains
+
+Own scope where variables defined between its curly brackets
+Outer function’s variables
+Global variables
+
+Q. How do you clone an object in JavaScript?
+const obj = { a: 1, b: 2 }
+const shallowClone = { ...obj }
+
+Q. What is eval?
+The eval() function evaluates JavaScript code represented as a string. The string can be a JavaScript expression, variable, statement, or sequence of statements.
+console.log(eval('10 + 20')); // 30
+var x = 10;
+var y = 20;
+var z = '50';
+eval('x + y + 1'); // returns 31
+eval(z);           // returns 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+

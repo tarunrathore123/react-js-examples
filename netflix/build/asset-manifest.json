@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/static/js/main.bc33421a.chunk.js",
+    "main.js.map": "/static/js/main.bc33421a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8b612c7e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8b612c7e.js.map",
+    "static/css/2.2c960b87.chunk.css": "/static/css/2.2c960b87.chunk.css",
+    "static/js/2.44c03f7c.chunk.js": "/static/js/2.44c03f7c.chunk.js",
+    "static/js/2.44c03f7c.chunk.js.map": "/static/js/2.44c03f7c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.2c960b87.chunk.css.map": "/static/css/2.2c960b87.chunk.css.map",
+    "static/js/2.44c03f7c.chunk.js.LICENSE.txt": "/static/js/2.44c03f7c.chunk.js.LICENSE.txt",
+    "static/media/icon_device.8e6539e8.png": "/static/media/icon_device.8e6539e8.png",
+    "static/media/icon_kid.bd003beb.png": "/static/media/icon_kid.bd003beb.png",
+    "static/media/icon_mobile.063578d5.jpg": "/static/media/icon_mobile.063578d5.jpg",
+    "static/media/icon_tv.0049bc70.png": "/static/media/icon_tv.0049bc70.png",
+    "static/media/loading.9b5373b7.svg": "/static/media/loading.9b5373b7.svg",
+    "static/media/netflix_logo.5787551b.svg": "/static/media/netflix_logo.5787551b.svg",
+    "static/media/noActor.a6410c2b.png": "/static/media/noActor.a6410c2b.png",
+    "static/media/noCompany2.1d3da6d7.png": "/static/media/noCompany2.1d3da6d7.png",
+    "static/media/noPoster.8a5ba7e5.png": "/static/media/noPoster.8a5ba7e5.png",
+    "static/media/video_device.3456030a.mp4": "/static/media/video_device.3456030a.mp4",
+    "static/media/video_tv.053994fc.m4v": "/static/media/video_tv.053994fc.m4v"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b612c7e.js",
+    "static/css/2.2c960b87.chunk.css",
+    "static/js/2.44c03f7c.chunk.js",
+    "static/js/main.bc33421a.chunk.js"
+  ]
+}

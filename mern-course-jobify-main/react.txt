@@ -1,0 +1,38 @@
+HOC, class lifecycle methods
+
+1. What is React?
+React is an open-source front-end JavaScript library that is used for building user interfaces, 
+especially for single-page applications.
+
+2. What are the major features of React?
+The major features of React are:
+
+It uses VirtualDOM instead of RealDOM considering that RealDOM manipulations are expensive.
+Supports server-side rendering.
+Follows Unidirectional data flow or data binding.
+Uses reusable/composable UI components to develop the view.
+
+3. What is JSX?
+JSX giving us expressiveness of JavaScript along with HTML like template syntax.
+
+4. State - 
+class User extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      message: 'Welcome to React world'
+    }
+  }
+  render() {
+    return (
+      <div>
+        <h1>{this.state.message}</h1>
+      </div>
+    )
+  }
+}
+
+5. Mounting Lifecycle Methods
+React supports three mounting lifecycle methods for component classes: componentWillMount(), render(), and componentDidMount(). 
+componentWillMount() will be called first followed by the render() method and finally the componentDidMount() method.
